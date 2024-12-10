@@ -1,1 +1,2 @@
 Ran the command: "sudo apt install samba"
+Ran the command: "sudo smbpasswd -a <users username>" for every user
