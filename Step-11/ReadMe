@@ -1,1 +1,5 @@
 Ran the command: "sudo apt install opanssh-server"
+Configured the "/etc/ssh/sshd_config" file 
+Ran the command: "sudo systemctl restart ssh"
+
+Ran the command: "ssh Gus@192.168.1.1" from the user Gus to test
