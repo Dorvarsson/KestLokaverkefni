@@ -1,1 +1,3 @@
-
+Configured the /etc/network/interfaces file with the static interface 192.168.1.1
+Ran the command: sudo systemctl restart networking]
+Ran the command: ip addr and ping 192.168.1.1 to verify the ip and test connectivity
