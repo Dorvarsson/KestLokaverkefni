@@ -1,5 +1,0 @@
-Ran the command: "sudo apt install isc-dhcp-server"
-Configured the file: "/etc/dhcp/dhcpd.conf"
-Configured the file: "/etc/default/isc-dhcp-server"
-Ran the command: "sudo systemctl restart isc-dhcp-server"
-Ran the command: "sudo systemctl status isc-dhcp-server" to verify the status of the server
