@@ -4,15 +4,13 @@
 
 ### These commands were used to set ownership and permissions for everygroups directory
 - sudo chown root:IT /samba/IT
-- sudo chown root:HR /samba/HR
-- sudo chown root:Finance /samba/Finance
-- sudo chown root:Management /samba/Management
+- sudo chown root:Sala /samba/Sala
+- sudo chown root:Stjornun /samba/Stjornun
 - sudo chmod 2770 /samba/IT
-- sudo chmod 2770 /samba/HR
-- sudo chmod 2770 /samba/Finance
-- sudo chmod 2770 /samba/Management
-
-- Configured the file "/etc/samba/smb.conf"
+- sudo chmod 2770 /samba/Sala
+- sudo chmod 2770 /samba/Stjornun
+#
+- Configured the file "/etc/samba/smb.conf" to setup new samba shared directories
 ![Step9-Server-smb conf](https://github.com/user-attachments/assets/b532816b-6b0e-447e-b5fb-c53a8bc44b6e)
 - Ran the command: "sudo systemctl restart smbd"
 - Ran the command: "sudo systemctl enable smbd" to active to service
