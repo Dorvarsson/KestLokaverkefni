@@ -1,3 +1,0 @@
-Created the file "CreateUsers.sh"
-Ran the commadn: "sudo chmod +x CreateUsers.sh" to make the file executable
-Ran the command "sudo ./CreateUsers.sh"
