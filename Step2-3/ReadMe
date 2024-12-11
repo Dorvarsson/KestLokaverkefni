@@ -1,4 +1,0 @@
-Configured the "/etc/hosts" and "/etc/hostname" on the server and client
-Ran the command: "sudo hostnamectl set-hostname server1.hostdo.local" on the server
-Ran the command: "sudo hostnamectl set-hostname client1.hostdo.local" on the client
-Ran the command: "hostname" and "hostname -f" to verify the changes
