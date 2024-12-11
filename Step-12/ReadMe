@@ -1,2 +1,4 @@
 Ran the command: "sudo apt install apache2"
 Ran the command: "sudo apt install openssl"
+Ran the command: "sudo mkdir /etc/apach2/ssl" to create the dictionary ssl
+Ran the command: "sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt" to create a certificate and a key
